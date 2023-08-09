@@ -1,14 +1,11 @@
-#include "disk.h"
-
-#include "globals.h"
-#include "palette.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <GL/gl.h>
-#include <GL/glu.h>
-#include <GL/glut.h>
 #include <math.h>
 #include <string.h>
+
+#include "disk.h"
+#include "globals.h"
+#include "palette.h"
 
 void LoadASC(){
     unsigned char InputString[20];

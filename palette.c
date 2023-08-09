@@ -1,8 +1,5 @@
 #include "palette.h"
 #include "globals.h"
-#include <GL/gl.h>
-#include <GL/glu.h>
-#include <GL/glut.h>
 
 void Pal256(unsigned long int x,int r,int g,int b)
 
